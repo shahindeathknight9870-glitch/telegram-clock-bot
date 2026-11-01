@@ -1,8 +1,7 @@
 name: Telegram Live Clock
 
 on:
-  schedule:
-    - cron: '* * * * *'  # اجرا در هر دقیقه
+  repository_dispatch:
   workflow_dispatch:
 
 jobs:
