@@ -1,7 +1,8 @@
 name: Telegram Live Clock
 
 on:
-  repository_dispatch:
+  schedule:
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
